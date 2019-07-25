@@ -2,10 +2,17 @@
   "extends": [
     "airbnb-base"
   ],
+  "plugins": [
+    "babel"
+  ],
+  "parser": "babel-eslint",
   "globals": {
     "document": "readonly",
     "window": "readonly",
     "Promise": "readonly",
     "fetch": "readonly"
+  },
+  "rules": {
+    "import/prefer-default-export": "off"
   }
 }
