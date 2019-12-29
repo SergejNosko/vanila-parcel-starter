@@ -10,7 +10,7 @@
   "author": "Serhii Nosko",
   "license": "ISC",
   "dependencies": {
-    "handlebars": "^4.1.2",
+    "handlebars": "^4.3.0",
     "lint-staged": "^9.2.0"
   },
   "devDependencies": {
